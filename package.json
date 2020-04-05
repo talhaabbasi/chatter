@@ -1,0 +1,25 @@
+{
+  "name": "chatter",
+  "version": "1.0.0",
+  "description": "Realtime chat application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talhaabbasi/chatter.git"
+  },
+  "author": "Talha Abbasi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talhaabbasi/chatter/issues"
+  },
+  "homepage": "https://github.com/talhaabbasi/chatter#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "socket.io": "^2.3.0"
+  }
+}
